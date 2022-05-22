@@ -10,7 +10,7 @@ The full assignment description is available in the ```assignment2.md``` file.
 The fake or real news CSV file is initially loaded from the ```data``` folder and split by fake or real news. The two new dataframes are then processed almost identically in a for-loop. Initially, for each row in the dataframe the text id and title is saved. The title is then used to calculate the  ```Vader``` compund sentiment score. ```Spacy``` is then used to create spacy documents. The user may specify whether to use the small or large ```spacy``` model in the commandline. The documents are used with ```Spacytextblob``` to calculate polarity and subjectivity scores. They are also used to find and save the GPE named entities. A bar plot is created of the 20 most mentioned GPE's. The color will differ depending on the input data (real or fake). The plot will be saved in the ```output``` folder, and the name will vary depending on the input data and the ```spacy``` model used. A CSV file with the same naming convention will also be saved in the ```output``` folder.
 
 ## Usage
-In order to run the script, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository).\
+In order to run the script, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository).
 ```bash
 git clone https://github.com/sarah-hvid/Lang_assignment2.git
 ```

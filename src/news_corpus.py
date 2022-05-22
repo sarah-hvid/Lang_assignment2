@@ -261,9 +261,6 @@ def create_csv(id_list, title_list, polarity_score, subjectivity_score, comp_lis
 
 
 def main():
-   '''
-   The process of the entire script.
-   '''
     # loading dataframes
     df_list = load_data()
     
