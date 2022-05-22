@@ -11,6 +11,9 @@ The fake or real news CSV file is initially loaded from the ```data``` folder an
 
 ## Usage
 In order to run the script, certain modules need to be installed. These can be found in the ```requirements.txt``` file. The folder structure must be the same as in this GitHub repository (ideally, clone the repository).\
+```bash
+git clone https://github.com/sarah-hvid/Lang_assignment2.git
+```
 The data used in the assignment is the __fake_or_real_news.csv__ file. The data is available in the shared ```CDS-LANG``` folder. The file must be placed in the ```data``` folder in order to replicate the results.\
 The current working directory when running the script must be the one that contains the ```data```, ```output``` and ```src``` folder.\
 \
