@@ -1,0 +1,15 @@
+# packages
+os
+argparse
+pandas
+collections
+itertools
+tqdm
+vaderSentiment
+matplotlib
+spacy
+spacytextblob
+
+# spacy models
+en_core_web_sm
+en_core_web_lg
