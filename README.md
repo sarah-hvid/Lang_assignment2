@@ -19,7 +19,7 @@ pip install -r requirements.txt
 The data used in the assignment is the __fake_or_real_news.csv__ file. The data is available in the shared ```CDS-LANG``` folder. The file must be placed in the ```data``` folder in order to replicate the results.\
 The current working directory when running the script must be the one that contains the ```data```, ```output``` and ```src``` folder.\
 \
-Examples of how to run the scripts from the command line: 
+How to run the script from the command line: 
 
 __The news corpus script__\
 Standard:
